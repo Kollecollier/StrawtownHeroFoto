@@ -12,6 +12,14 @@ body{
     overflow-x:hidden;
     }
 
+.bodyimage{
+    background-image: url(https://res.cloudinary.com/kolle1993/image/upload/v1678562959/Foto_2020-01-11_18_52_49_gnnwhr.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
 .hero{
     width: 100%;
     height: 100vh;
@@ -22,20 +30,8 @@ body{
     justify-content: center;
 }
 
-nav {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 20px 8%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
-nav .logo{
-    width: 80px;
-}
+
 
 .image-container{
     display: block;
@@ -44,17 +40,9 @@ nav .logo{
     width: 50%;
 }
 
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    margin-left: 40px;
-}
 
-nav ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 25px;
-}
+
+
 
 .back-video{
   position: absolute;
@@ -63,59 +51,48 @@ nav ul li a{
     z-index: -1;
 }
 
-li a:hover{
-    border-bottom: 2px solid grey;
-}
-
 /*Footer*/
-.footer{
-    background:#000;
-    padding:30px 0px;
-    font-family: 'Play', sans-serif;
-    text-align:center;
-    }
-    
-    .footer .row{
+
+
+
+/*navbar test*/
+
+#mainNavigation a {
+    font-family: 'Cabin', sans-serif;
+    font-size:15px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    text-shadow:1px 1px 2px rgba(0,0,0,0.4)
+  }
+  
+  .dropdown-menu {
+    background:#fafafa
+  }
+  a.dropdown-toggle {
+    color:#dfdfdf !important
+  }
+  a.dropdown-item:hover {
+    color: black !important
+  }
+  .nav-item a{
+    color:#dfdfdf;
+  }
+  .nav-item a:hover {
+    color:#fff
+  }
+  .nav-item{
+    min-width:12vw;
+  }
+  #mainNavigation {
+    position:fixed;
+    top:0;
+    left:0;
     width:100%;
-    padding:0.6% 0%;
-    color:gray;
-    font-size:x-large;
-    }
-    
-    .footer .row a{
-    text-decoration:none;
-    color:gray;
-    transition:0.5s;
-    }
-    
-    .footer .row a:hover{
-    color:#fff;
-    text-decoration: underline;
-    }
-    
-    .footer .row ul{
-    width:100%;
-    }
-    
-    .footer .row ul li{
-    display:inline-block;
-    margin:0px 30px;
-    }
-    
-    .footer .row a i{
-    font-size:2em;
-    margin:0% 1%;
-    }
-
-    .footer .row ul li{
-    display:block;
-    margin:10px 0px;
-    text-align:left;
-    }
-
-    .footer .row a i{
-    margin:0% 3%;
-    }
-
-
-    /*Gallery*/
+    z-index:123;
+    padding-bottom:120px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+  }

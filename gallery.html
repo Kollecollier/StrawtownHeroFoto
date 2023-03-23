@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +10,6 @@
 
     <!-- font awesome script-->
     <script src="https://kit.fontawesome.com/e0dae8dfad.js" crossorigin="anonymous"></script>
-
     <!--FONT AWESOME-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -23,13 +19,207 @@
 
     <!--BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
- 
-</head>
-<body>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+    </script>
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" 
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" 
+    crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" 
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" 
+    crossorigin="anonymous">
+    </script>
+
+</head>
+
+<header>
+  <div class="container">
+    <div id="mainNavigation">
+      <nav role="navigation">
+
+
+      </nav>
+      <div class="navbar-expand-md">
+
+        <div class="navbar-dark text-center my-2">
+          <button class="navbar-toggler w-75" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> <span class="align-middle">Menu</span>
+          </button>
+        </div>
+
+        <div class="text-center mt-3 collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mx-auto ">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Gallery
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Nature Gallery</a></li>
+                <li><a class="dropdown-item" href="#">Models Gallery</a></li>
+                <li><a class="dropdown-item" href="#">Music/Live Gallery</a></li>
+              </ul>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Location</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Policy</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Company
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+                <li><a class="dropdown-item" href="#">About Us</a></li>
+                <li><a class="dropdown-item" href="#">Contact us</a></li>
+              </ul>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+    <br>   
+
+
+    <!-- Header Carousel -->
+    <div class="container">
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+              <div class="carousel-item active" data-bs-interval="4000">
+                <img src="https://res.cloudinary.com/kolle1993/image/upload/v1679395281/strawtown%20hero/slide1_y1eirz.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="https://res.cloudinary.com/kolle1993/image/upload/v1679481628/strawtown%20hero/Foto_2020-07-20_18_19_19_1_zyxx0s.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="https://res.cloudinary.com/kolle1993/image/upload/v1679484595/strawtown%20hero/Foto_2020-10-28_15_39_21_1_s6ze6g.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <br>
+</header>
+
+
+
+<body class="bodyimage">
+    <!-- Gallery 1 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+
+                <img src="https://res.cloudinary.com/kolle1993/image/upload/v1678562959/Foto_2020-01-11_18_52_49_gnnwhr.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                    class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                    class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
+
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                    class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                    class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
+
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                    class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
+            </div>
+        </div>
+    </div>
+
+<!-- Gallery 2 -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+
+            <img src="https://res.cloudinary.com/kolle1993/image/upload/v1678562959/Foto_2020-01-11_18_52_49_gnnwhr.jpg"
+                class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
+
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
+
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
+        </div>
+    </div>
+</div>
+
 <!--JS SCRIPT-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
 </body>
 </html>
-
